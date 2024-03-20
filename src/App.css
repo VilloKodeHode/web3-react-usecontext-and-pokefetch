@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+p.lightMode {
+  color: black;
+  background-color: white;
+  padding: 8px;
+}
+
+p.darkMode {
+  color: white;
+  background-color: black;
+  padding: 8px;
+}
